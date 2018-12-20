@@ -42,4 +42,4 @@ get_combs_with_target_rating <- function(ratings, target = 85, cost = c(), pre =
 }
      
 #Get rating combinations for target 85, containing 84,85 or 86-rated players with ALREADY included 88-rated player	 
-get_combs_with_target_rating(ratings = c(84,85,86), target = 85, pre = 88)
+#get_combs_with_target_rating(ratings = c(84,85,86), target = 85, pre = 88)
